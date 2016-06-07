@@ -1,0 +1,21 @@
+httpie-cbw-api-auth
+===================
+
+CyberWatch [APIAuth](https://github.com/mgomes/api_auth) Plugin for [HTTPie]( http://httpie.org). Inspired by [httpie-api-auth](https://github.com/pd/httpie-api-auth)
+
+Installation
+------------
+
+    sudo apt-get install httpie
+    git clone https://gitlab.cbw.io/CyberwatchTeam/httpie-cbw-api-auth.git
+    sudo python setup.py install
+
+Usage
+-----
+
+    http --auth-type=cbw-api-auth --auth='ACCESS_KEY_ID:SECRET_ACCESS_KEY' localhost:3000/api/v2/ping
+
+Compatibility
+-------------
+
+Only compatible with _CyberWatch APIAuth HMAC-SHA256_
