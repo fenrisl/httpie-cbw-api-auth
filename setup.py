@@ -8,7 +8,7 @@ setup(
     name='httpie-cbw-api-auth',
     description='CyberWatch ApiAuth plugin for HTTPie.',
     long_description=open('README.md').read().strip(),
-    version='0.0.1',
+    version='0.0.2',
     author='CyberWatch SAS',
     author_email='contact@cyberwatch.fr',
     license='MIT',
@@ -21,6 +21,6 @@ setup(
         ]
     },
     install_requires=[
-        'httpie>=0.9.3'
+        'httpie>=0.9.3,<=0.9.6'
     ]
 )
