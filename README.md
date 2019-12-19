@@ -14,7 +14,12 @@ Installation
 Usage
 -----
 
-    http --auth-type=cbw-api-auth --auth='ACCESS_KEY_ID:SECRET_ACCESS_KEY' localhost:3000/api/v2/ping
+    http --auth-type=cbw-api-auth --auth='ACCESS_KEY_ID:SECRET_ACCESS_KEY' localhost:3000/api/v3/ping
+
+Documentation
+-------------
+
+See the full API documentation [here](https://docs.cyberwatch.fr/)
 
 Compatibility
 -------------
