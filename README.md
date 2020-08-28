@@ -9,7 +9,7 @@ Installation
     sudo apt-get install httpie
     git clone https://github.com/Cyberwatch/httpie-cbw-api-auth.git
     cd ./httpie-cbw-api-auth
-    sudo python setup.py install
+    sudo python3 setup.py install
 
 Usage
 -----
